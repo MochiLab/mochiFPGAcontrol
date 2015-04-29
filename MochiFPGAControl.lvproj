@@ -5154,6 +5154,7 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Signal
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
