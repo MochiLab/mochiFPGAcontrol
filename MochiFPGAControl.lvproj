@@ -92,7 +92,7 @@
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -360,7 +360,7 @@
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -495,7 +495,7 @@
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -629,7 +629,7 @@ DRAM Bank 119f74dab4b6363cb50c87e1e6361b4882e946c0fe4d7b03c6636fbcd3ff1aa5342502
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -2327,6 +2327,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXIe-7962R/RioClk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7962RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.DramBanksReservedForMemories" Type="Str"></Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2014/instr.lib/_niInstr/Streaming/v1/FPGA/Public/Data Stream Control.vi</Property>
 			<Property Name="Resource Name" Type="Str">RIO0</Property>
 			<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 			<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -3930,7 +3931,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -4215,7 +4216,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -4475,7 +4476,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -4743,7 +4744,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -4878,7 +4879,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -5012,7 +5013,7 @@ DRAM Bank 119f74dab4b6363cb50c87e1e6361b4882e946c0fe4d7b03c6636fbcd3ff1aa5342502
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -5271,6 +5272,42 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 					<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 					<Property Name="TargetName" Type="Str">FPGA Target</Property>
 					<Property Name="TopLevelVI" Type="Ref">/My Computer/FPGA Target/PXIe-7962_FPGA.vi</Property>
+				</Item>
+				<Item Name="Data Stream Control" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+					<Property Name="BuildSpecDecription" Type="Str"></Property>
+					<Property Name="BuildSpecName" Type="Str">Data Stream Control</Property>
+					<Property Name="Comp.BitfileName" Type="Str">MochiFPGAControl_FPGATarget_DataStreamContro_OTE-MAki1vA.lvbitx</Property>
+					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+					<Property Name="Comp.Version.Build" Type="Int">0</Property>
+					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+					<Property Name="Comp.Version.Major" Type="Int">1</Property>
+					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
+					<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+					<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+					<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="ProjectPath" Type="Path">/C/Users/jensv_000/LabVIEW/mochifpgacontrol/MochiFPGAControl.lvproj</Property>
+					<Property Name="RelativePath" Type="Bool">true</Property>
+					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+					<Property Name="SupportDownload" Type="Bool">true</Property>
+					<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
+					<Property Name="TargetName" Type="Str">FPGA Target</Property>
+					<Property Name="TopLevelVI" Type="Ref">/My Computer/FPGA Target/Instrument Design Libraries/niInstr Streaming v1 FPGA.lvlib/Data Stream Control.vi</Property>
 				</Item>
 			</Item>
 		</Item>
