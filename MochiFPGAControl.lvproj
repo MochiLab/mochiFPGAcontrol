@@ -2327,7 +2327,6 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXIe-7962R/RioClk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7962RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.DramBanksReservedForMemories" Type="Str"></Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/jensv_000/Desktop/test.vi</Property>
 			<Property Name="Resource Name" Type="Str">RIO0</Property>
 			<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 			<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -5199,7 +5198,7 @@ DRAM to DMA"ControlLogic=0;NumberOfElements=21;Type=0;ReadArbs=Arbitrate if Mult
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/PllUnlocked;0;ReadMethodType=boolPXIe-7962R/RioClk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7962RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Read_Data_LowerNumberOfSyncRegistersForReadInProject=0;resource=/DRAM Bank 0/SignalList/Read_Data_Lower;0;ReadMethodType=U64Read_Data_LowerNumberOfSyncRegistersForReadInProject=0;resource=/DRAM Bank 1/SignalList/Read_Data_Lower;0;ReadMethodType=U64Read_Data_UpperNumberOfSyncRegistersForReadInProject=0;resource=/DRAM Bank 0/SignalList/Read_Data_Upper;0;ReadMethodType=U64Read_Data_UpperNumberOfSyncRegistersForReadInProject=0;resource=/DRAM Bank 1/SignalList/Read_Data_Upper;0;ReadMethodType=U64ReadArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/DRAM Bank 0/SignalList/Read;0;WriteMethodType=boolReadArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/DRAM Bank 1/SignalList/Read;0;WriteMethodType=boolSampleClkSrcSelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/SampleClkSrcSelect;0;WriteMethodType=U8Target to Host FIFO DRAM 0"ControlLogic=0;NumberOfElements=15;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Target to Host FIFO DRAM 0;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Target to Host FIFO DRAM 1"ControlLogic=0;NumberOfElements=15;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Target to Host FIFO DRAM 1;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Write_Data_LowerArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/DRAM Bank 0/SignalList/Write_Data_Lower;0;WriteMethodType=U64Write_Data_LowerArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/DRAM Bank 1/SignalList/Write_Data_Lower;0;WriteMethodType=U64Write_Data_UpperArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/DRAM Bank 0/SignalList/Write_Data_Upper;0;WriteMethodType=U64Write_Data_UpperArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/DRAM Bank 1/SignalList/Write_Data_Upper;0;WriteMethodType=U64WriteArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/DRAM Bank 0/SignalList/Write;0;WriteMethodType=boolWriteArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/DRAM Bank 1/SignalList/Write;0;WriteMethodType=bool</Property>
-				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\LabVIEW\mochifpgacontrol\FPGA Bitfiles\MochiFPGAControl_FPGATarget_PXIe-7962FPGA_oVYoR0+gQAQ.lvbitx</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\jensv_000\LabVIEW\mochifpgacontrol\FPGA Bitfiles\MochiFPGAControl_FPGATarget_PXIe-7962FPGA_O0kuTRB0eVQ.lvbitx</Property>
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="vi.lib" Type="Folder">
@@ -5219,7 +5218,7 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 				<Item Name="deleave.vi" Type="VI" URL="../SubVIs/deleave.vi"/>
 				<Item Name="bitarray_to_counts.vi" Type="VI" URL="../SubVIs/bitarray_to_counts.vi"/>
 				<Item Name="counts_to_voltages.vi" Type="VI" URL="../SubVIs/counts_to_voltages.vi"/>
-				<Item Name="MochiFPGAControl_FPGATarget_PXIe-7962FPGA_oVYoR0+gQAQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_FPGATarget_PXIe-7962FPGA_oVYoR0+gQAQ.lvbitx"/>
+				<Item Name="MochiFPGAControl_FPGATarget_PXIe-7962FPGA_O0kuTRB0eVQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_FPGATarget_PXIe-7962FPGA_O0kuTRB0eVQ.lvbitx"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="PXIe-7962_FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -5273,7 +5272,7 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MochiFPGAControl_FPGATarget_PXIe-7962FPGA_oVYoR0+gQAQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_FPGATarget_PXIe-7962FPGA_oVYoR0+gQAQ.lvbitx"/>
+			<Item Name="MochiFPGAControl_FPGATarget_PXIe-7962FPGA_O0kuTRB0eVQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_FPGATarget_PXIe-7962FPGA_O0kuTRB0eVQ.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
