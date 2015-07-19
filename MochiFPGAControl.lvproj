@@ -5225,6 +5225,13 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 					<Item Name="niInstr Data Trigger v1 Shared.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Data Trigger/v1/Shared/niInstr Data Trigger v1 Shared.lvlib"/>
 					<Item Name="niInstr Basic Elements v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/niInstr Basic Elements v1 FPGA.lvlib"/>
 				</Item>
+				<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+					<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				</Item>
+				<Item Name="deleave.vi" Type="VI" URL="../SubVIs/deleave.vi"/>
+				<Item Name="bitarray_to_counts.vi" Type="VI" URL="../SubVIs/bitarray_to_counts.vi"/>
+				<Item Name="counts_to_voltages.vi" Type="VI" URL="../SubVIs/counts_to_voltages.vi"/>
+				<Item Name="MochiFPGAControl_FPGATarget_PXIe-7962FPGA_O0kuTRB0eVQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_FPGATarget_PXIe-7962FPGA_O0kuTRB0eVQ.lvbitx"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="PXIe-7962_FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -5278,6 +5285,7 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="MochiFPGAControl_FPGATarget_PXIe-7962FPGA_O0kuTRB0eVQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_FPGATarget_PXIe-7962FPGA_O0kuTRB0eVQ.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
