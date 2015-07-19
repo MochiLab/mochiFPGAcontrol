@@ -833,10 +833,10 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Category" Type="Str">FlexRIO-IOModule</Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].InvalidPath" Type="Str"></Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Name" Type="Str">NI 5752 IO Module</Property>
-			<Property Name="NI.LV.FPGA.CLIPDeclarations[1].Category" Type="Str">FlexRIO-DRAMTypeB-Bank1</Property>
+			<Property Name="NI.LV.FPGA.CLIPDeclarations[1].Category" Type="Str">FlexRIO-DRAMTypeB-Bank0</Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[1].InvalidPath" Type="Str"></Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[1].Name" Type="Str">FIFO - 128 Bit</Property>
-			<Property Name="NI.LV.FPGA.CLIPDeclarations[2].Category" Type="Str">FlexRIO-DRAMTypeB-Bank0</Property>
+			<Property Name="NI.LV.FPGA.CLIPDeclarations[2].Category" Type="Str">FlexRIO-DRAMTypeB-Bank1</Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[2].InvalidPath" Type="Str"></Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarations[2].Name" Type="Str">FIFO - 128 Bit</Property>
 			<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">3</Property>
@@ -3838,7 +3838,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
       <ClockFromCLIP>false</ClockFromCLIP>
       <Direction>ToCLIP</Direction>
       <HDLName>ReadClk</HDLName>
-      <LinkToFPGAClock>100 MHz Clock</LinkToFPGAClock>
+      <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
       <MaxFreq>399000000.0000</MaxFreq>
       <MinFreq>0.000000000000</MinFreq>
       <UseTopClock>false</UseTopClock>
@@ -4123,7 +4123,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
       <ClockFromCLIP>false</ClockFromCLIP>
       <Direction>ToCLIP</Direction>
       <HDLName>ReadClk</HDLName>
-      <LinkToFPGAClock>100 MHz Clock</LinkToFPGAClock>
+      <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
       <MaxFreq>399000000.0000</MaxFreq>
       <MinFreq>0.000000000000</MinFreq>
       <UseTopClock>false</UseTopClock>
