@@ -411,7 +411,7 @@
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -546,7 +546,7 @@
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -3982,7 +3982,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -4795,7 +4795,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
@@ -4930,7 +4930,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 &lt;NumElts&gt;3&lt;/NumElts&gt;
 &lt;String&gt;
 &lt;Name&gt;Name&lt;/Name&gt;
-&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;Val&gt;100 MHz Clock&lt;/Val&gt;
 &lt;/String&gt;
 &lt;Boolean&gt;
 &lt;Name&gt;Use Top Clock&lt;/Name&gt;
