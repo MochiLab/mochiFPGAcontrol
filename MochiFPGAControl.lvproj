@@ -5232,6 +5232,7 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 					<Item Name="niInstr Memory DRAM U384 v1 FPGA.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/_niInstr/Memory/v1/FPGA/DRAM U384/niInstr Memory DRAM U384 v1 FPGA.lvclass"/>
 					<Item Name="niInstr Memory DRAM U512 v1 FPGA.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/_niInstr/Memory/v1/FPGA/DRAM U512/niInstr Memory DRAM U512 v1 FPGA.lvclass"/>
 				</Item>
+				<Item Name="K7 DRAM FIFO.lvclass" Type="LVClass" URL="../../../Downloads/jensv-mochifpgacontrol-1210b53995d6/jensv-mochifpgacontrol-1210b53995d6/DRAM FIFO/K7 DRAM FIFO.lvclass"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="pxie_7962_fpga" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
