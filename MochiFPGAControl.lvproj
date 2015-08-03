@@ -651,7 +651,7 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
             <RelativeToLabVIEW>..\Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>Presents a random-access external memory interface with a 128-bit data port.\n\nRequests to write to and read from memory are satisfied by issuing a write or read command to this memory interface.  To issue a write, set the Command signal to 0 and assert Command_Write_Enable.  To issue a read, set the Command signal to 1 and assert Command_Write_Enable.  Latch the read data on the same clock cycle that Read_Strobe asserts.  Command_Write_Enable should never be asserted when Command_FIFO_Full is &quot;TRUE&quot;.\n\nAll signals for this memory interface must be accessed from within a Single Cycle Timed Loop, and you must configure the User_Clk to run on the same clock domain as this Timed Loop.\n\nThis version of the memory interface will automatically disable synchronization registers on all FPGA I/O to and from the memory interface.  All synchronization registers on FPGA I/O to and from this memory interface must be disabled in order for it to function properly.</Description>
@@ -999,7 +999,7 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
             <RelativeToLabVIEW>..\Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\External Memory\RandomAccess128Bit-DRAMTypeB\1.1.0\FlexRIO_RandomAccess128Bit_DRAMTypeB_v110.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>Presents a random-access external memory interface with a 128-bit data port.\n\nRequests to write to and read from memory are satisfied by issuing a write or read command to this memory interface.  To issue a write, set the Command signal to 0 and assert Command_Write_Enable.  To issue a read, set the Command signal to 1 and assert Command_Write_Enable.  Latch the read data on the same clock cycle that Read_Strobe asserts.  Command_Write_Enable should never be asserted when Command_FIFO_Full is &quot;TRUE&quot;.\n\nAll signals for this memory interface must be accessed from within a Single Cycle Timed Loop, and you must configure the User_Clk to run on the same clock domain as this Timed Loop.\n\nThis version of the memory interface will automatically disable synchronization registers on all FPGA I/O to and from the memory interface.  All synchronization registers on FPGA I/O to and from this memory interface must be disabled in order for it to function properly.</Description>
@@ -1349,7 +1349,7 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
             <RelativeToLabVIEW>..\Shared\FlexRIO\IO Modules\NI 5752\NI5752Port\1.1.0\NI5752Port.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5752\NI5752Port\1.1.0\NI5752Port.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\IO Modules\NI 5752\NI5752Port\1.1.0\NI5752Port.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5752\NI5752Port\1.1.0\NI5752Port.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5752\NI5752Port\1.1.0\NI5752Port.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to thirty-two analog input channels, two digital input lines, and sixteen digital output lines.  This CLIP also contains a SPI interface to program the ADC registers.  
@@ -5333,10 +5333,6 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				</Item>
-				<Item Name="bundle_ai_for_clock_transfer.vi" Type="VI" URL="../FPGA_SubVIs/bundle_ai_for_clock_transfer.vi"/>
-				<Item Name="Acquisition FIFOs Cluster.ctl" Type="VI" URL="../FPGA_Controls/Acquisition FIFOs Cluster.ctl"/>
-				<Item Name="bundle_4_AI_to_FIFO.vi" Type="VI" URL="../FPGA_SubVIs/bundle_4_AI_to_FIFO.vi"/>
-				<Item Name="Control 1.ctl" Type="VI" URL="../FPGA_Controls/Control 1.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
