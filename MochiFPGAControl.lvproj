@@ -2156,7 +2156,7 @@ For more information on the CLIP I/O refer to the NI 5752 FlexRIO CLIP Node Wire
 			<Property Name="NI.LV.FPGA.DramBanksReservedForMemories" Type="Str">DramBank0;DramBank1</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/LabVIEW/mochifpgacontrol/test.vi</Property>
-			<Property Name="Resource Name" Type="Str">RIO1</Property>
+			<Property Name="Resource Name" Type="Str">RIO2</Property>
 			<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 			<Property Name="SWEmulationVIPath" Type="Path"></Property>
 			<Property Name="Target Class" Type="Str">PXIe-7962R</Property>
@@ -5339,10 +5339,6 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				</Item>
-				<Item Name="bundle_ai_for_clock_transfer.vi" Type="VI" URL="../FPGA_SubVIs/bundle_ai_for_clock_transfer.vi"/>
-				<Item Name="Acquisition FIFOs Cluster.ctl" Type="VI" URL="../FPGA_Controls/Acquisition FIFOs Cluster.ctl"/>
-				<Item Name="bundle_4_AI_to_FIFO.vi" Type="VI" URL="../FPGA_SubVIs/bundle_4_AI_to_FIFO.vi"/>
-				<Item Name="Control 1.ctl" Type="VI" URL="../FPGA_Controls/Control 1.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
