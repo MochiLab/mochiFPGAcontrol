@@ -5339,6 +5339,10 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				</Item>
+				<Item Name="bundle_ai_for_clock_transfer.vi" Type="VI" URL="../FPGA_SubVIs/bundle_ai_for_clock_transfer.vi"/>
+				<Item Name="Acquisition FIFOs Cluster.ctl" Type="VI" URL="../FPGA_Controls/Acquisition FIFOs Cluster.ctl"/>
+				<Item Name="bundle_4_AI_to_FIFO.vi" Type="VI" URL="../FPGA_SubVIs/bundle_4_AI_to_FIFO.vi"/>
+				<Item Name="Control 1.ctl" Type="VI" URL="../FPGA_Controls/Control 1.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
