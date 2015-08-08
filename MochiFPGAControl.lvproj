@@ -5353,6 +5353,7 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="MochiFPGAControl_FPGATargetDRAMCL_pxie7962fpga_MiJL5+eH4L4.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_FPGATargetDRAMCL_pxie7962fpga_MiJL5+eH4L4.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
