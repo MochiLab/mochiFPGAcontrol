@@ -5548,8 +5548,8 @@ PllUnlockedNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalLis
 			<Item Name="niSync.dll" Type="Document" URL="niSync.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="MochiFPGAControl_FPGATarget_pxie7962fpga_XsUx6Pt6QBg.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_FPGATarget_pxie7962fpga_XsUx6Pt6QBg.lvbitx"/>
 			<Item Name="MochiFPGAControl_FPGATarget_pxie7962fpga_vH47uBXjtQs.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_FPGATarget_pxie7962fpga_vH47uBXjtQs.lvbitx"/>
+			<Item Name="MochiFPGAControl_1 cycle grant time.lvbitx" Type="Document" URL="../FPGA Bitfiles/MochiFPGAControl_1 cycle grant time.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
