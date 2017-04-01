@@ -54,7 +54,7 @@ The bitfile has to be loaded onto the FPGA, one way to do this is with NI MAX an
 
 ## Improvements
 * Bitpacking the 16 bit words to 12 bits. This would reduce the data throughput to ~2.25GB/s and increase the acquisition time. First steps are in the bitpacking branches in the GitHub repository (MochiLab/mochiFPGAcontrol).
-* Use of K9 library to manage DRAM memory. There is a LabVIEW FPGA DRAM memory library that could simplify the read and write process to the DRAM. First steps are in the guys_version branch in the GitHub repository (MochiLab/mochiFPGAcontrol). 
+* Use of K7 library to manage DRAM memory. There is a LabVIEW FPGA DRAM memory library that could simplify the read and write process to the DRAM. First steps are in the guys_version branch in the GitHub repository (MochiLab/mochiFPGAcontrol). 
 * Using digital outputs of the NI-5752 as counters. The clock in the digitizer adapter could be used as a driver for single-cycle timed loop. An upcount vi could count 20ns ticks and then turn on the digital output channels at given counts.
 
 ## Acknowledgments
