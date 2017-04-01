@@ -28,10 +28,16 @@ This double chassis requirement could be removed with minor edits in the host Vi
 LabVIEW FPGA projects consist of FPGA VIs meant to be compiled to bitfiles and run on the FPGAs, and Host VIs to be run on a computer.
 
 **MochiFPGAControl.lvproj** is the LabVIEW project file which should be opened with LabVIEW.
+
+
 **host_with_sub_vis_timed_pulse.vi** is the recommended host test file. There are options to set the number of samples that should be acquired and to display the acquisition from one channel.
 An analog digital high pass filter can be set to on or off. It should be set to on.
 A digital high pass filter can be set with a binary number. The possible settings can be looked up in the AFE 5801.
+
+
 **FPGA Bitfiles/MOCHIFPGAControl_2016-11-29_generic_register_setting_5f6bfda_K10_digital_filters.lvbitx** is the bitfile that has to be loaded onto the FPGA.
+
+
 **pxie_7962_fpga.vi** is the FPGA vi. The bitfile is compiled from this file.
 
 ## Setup
