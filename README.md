@@ -58,7 +58,7 @@ The bitfile has to be loaded onto the FPGA, one way to do this is with NI MAX an
 * Using digital outputs of the NI-5752 as counters. The clock in the digitizer adapter could be used as a driver for single-cycle timed loop. An upcount vi could count 20ns ticks and then turn on the digital output channels at given counts.
 
 ## Acknowledgments
-Thank you to Glenn Manlongat (National Instruments) for help specifying and selecting the hardware, and Guy McDonnell (National Instruments) for help and advice developing the FPGA code.
+Thanks to Glenn Manlongat (National Instruments) for help specifying and selecting the hardware, and Guy McDonnell (National Instruments) for help and advice developing the FPGA code.
 
 ## Contact
 Jens von der Linden jensv@uw.edu
