@@ -1,4 +1,7 @@
 # Mochi FPGA control
+[![DOI](https://zenodo.org/badge/86863186.svg)](https://zenodo.org/badge/latestdoi/86863186)
+
+
 This LabVIEW project programs a PXIe-7962R field programmable arrays (FPGA) to read out 50Mhz 12 bit samples for 800 us from a NI-5752 digitizer.
 
 
