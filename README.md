@@ -5,8 +5,8 @@
 This LabVIEW project programs a PXIe-7962R field programmable arrays (FPGA) to read out 50Mhz 12 bit samples for 800 us from a NI-5752 digitizer.
 
 
-The PXIe-7962R reads out the samples as 16-bit words, resulting in a data throughput of ~3GB/s. 
-This code achieves a throughput to the on board DRAM of ~1.5 GB/s, limiting the acquisition time to ~800us when the overflow data fills the on board block memory.
+The PXIe-7962R reads out the samples as 16-bit words, resulting in a data throughput of 3.2GB/s. 
+This code achieves a throughput to the on board DRAM of ~3 GB/s, limiting the acquisition time to ~800us when the overflow data fills the on board block memory.
 
 ## Requirements
 ### Software Dependencies
